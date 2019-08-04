@@ -11,8 +11,8 @@ def map(source_array)
 
   firstmost_name = bands.reduce(nil) do |memo, (key, value)|
     # On the first pass, we don't have a name, so just grab the first one.
-    binding.pry 
+    binding.pry
     memo = value[0] if !memo
-
+  end
 
 end
